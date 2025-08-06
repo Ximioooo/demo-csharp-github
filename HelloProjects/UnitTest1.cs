@@ -7,7 +7,7 @@ public class UnitTest1
     {
         int seed1 = 1, seed2 = 3;
 
-        int answer = seed1 + seed2;
+        int answer = seed1 + 10;
         int result = Sum(seed1, seed2);
         Assert.Equal(answer, result);
     }
